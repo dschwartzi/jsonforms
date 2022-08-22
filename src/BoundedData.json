@@ -1,0 +1,24 @@
+{
+  "component": "Inline Forms",
+  "showOnNavigation": false,
+  "title": "Empowering learners of tomorrow",
+  "subtitle": "Over 2,300 students have completed this course and started working at their dream job, whats stopping you?",
+  "domIdentifier": "section-inlineForms",
+  "footerText": "By clicking Start Application, you agree to our terms and conditions and our privacy policy.",
+  "cta": {
+    "ctaText": "Start Application"
+  },
+  "emailCta": {
+    "ctaText": "Continue with email",
+    "showCta": true
+  },
+  "benefits": {
+    "title": "What's included in the Price",
+    "subText": "Features/Benefits",
+    "points": [
+      "Post Graduate Degree from IIIT-B",
+      "Comprehensive Career Transition Support",
+      "Alumni Status from IIIT-B"
+    ]
+  }
+}

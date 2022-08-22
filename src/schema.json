@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "component": {
+      "type": "string"
+    },
+    "domIdentifier": {
+      "type": "string"
+    },
+    "showOnNavigation": {
+      "type": "boolean"
+    },
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "footerText": {
+      "type": "string"
+    },
+    "cta": {
+      "type": "object",
+      "properties": {
+        "ctaText": {
+          "type": "string"
+        },
+        "showCta": {
+          "type": "boolean"
+        }
+      },
+      "required": ["ctaText"]
+    },
+    "emailCta": {
+      "type": "object",
+      "properties": {
+        "ctaText": {
+          "type": "string"
+        },
+        "showCta": {
+          "type": "boolean"
+        }
+      },
+      "required": ["ctaText"]
+    },
+    "benefits": {
+      "type": "object",
+      "properties": {
+        "title": {
+          "type": "string"
+        },
+        "subText": {
+          "type": "string"
+        },
+        "points": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        }
+      },
+      "required": ["title", "subText"]
+    }
+  },
+  "required": ["title", "subtitle", "cta", "emailCta"]
+}

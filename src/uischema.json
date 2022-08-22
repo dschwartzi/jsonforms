@@ -1,0 +1,72 @@
+{
+  "type": "Categorization",
+  "elements": [
+    {
+      "type": "Category",
+      "label": "Basic Info",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/component"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/domIdentifier"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/showOnNavigation"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/title"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/subtitle"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/footerText"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/cta"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/emailCta"
+        }
+      ]
+    },
+    {
+      "type": "Category",
+      "label": "Benefits",
+      "elements": [
+        {
+          "type": "Control",
+          "scope": "#/properties/benefits/properties/title"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/benefits/properties/subText"
+        },
+        {
+          "type": "Control",
+          "scope": "#/properties/benefits/properties/points",
+          "options": {
+            "detail": {
+              "type": "VerticalLayout",
+              "elements": [
+                {
+                  "type": "Control",
+                  "scope": "#/items"
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}
